@@ -12,6 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TenKeyIME"
         tools:targetApi="31">
+
+        <service
+            android:name="InputMethod"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+<!--            <meta-data-->
+<!--                android:name="android.view.im.subtype"-->
+<!--                android:resource="@xml/subtypes"/>-->
+        </service>
         <activity
             android:name=".MainActivity"
             android:exported="true"

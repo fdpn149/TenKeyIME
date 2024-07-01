@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.FrameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Button"
+        android:stateListAnimator="@null" />
+
+    <TextView
+        android:id="@+id/text_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:gravity="start|center_vertical"
+        android:text="Start"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:gravity="center_horizontal|top"
+        android:text="Top"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:gravity="end|center_vertical"
+        android:text="End"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="bottom|center_horizontal"
+        android:text="Bottom"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="16sp" />
+
+</merge>

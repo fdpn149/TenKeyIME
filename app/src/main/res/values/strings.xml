@@ -1,7 +1,4 @@
 <resources>
     <string name="app_name">TenKeyIME</string>
-    <string name="primary_color">Primary color</string>
-    <string name="button">Button</string>
-    <string name="secondary_color">Secondary color</string>
-    <string name="email_icon">email icon</string>
+    <string name="subtype">自製輸入法</string>
 </resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.crest247.tenkeyime.viewModel.ImeViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/candidateRecyclerView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="?attr/candidateViewBackground"-->
+<!--            android:orientation="horizontal"-->
+<!--            app:layoutManager="LinearLayoutManager" />-->
+
+        <include
+            android:id="@+id/view_candidates"
+            layout="@layout/view_candidates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/keyboard_english"
+            layout="@layout/keyboard_english"
+            android:layout_width="match_parent"
+            android:layout_height="@{viewModel.keyboardHeight}" />
+
+        <include
+            android:id="@+id/keyboard_array"
+            layout="@layout/keyboard_array"
+            android:layout_width="match_parent"
+            android:layout_height="@{viewModel.keyboardHeight}"
+            android:visibility="gone" />
+    </LinearLayout>
+</layout>
