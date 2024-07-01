@@ -1,18 +1,16 @@
 package com.crest247.tenkeyime
 
-import android.annotation.SuppressLint
-import android.util.Log
 import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.TextView
-import androidx.recyclerview.widget.RecyclerView
+import android.widget.LinearLayout
+import com.google.android.material.button.MaterialButton
 import java.io.BufferedReader
-import java.io.File
 import java.io.InputStreamReader
 
-class CandidatesAdapter(private val ime: InputMethod) :
-    RecyclerView.Adapter<CandidatesAdapter.CandidatesViewHolder>() {
+class CandidatesAdapter(
+    private val inputMethod: InputMethod,
+    private val view: LinearLayout,
+    private val inflater: LayoutInflater
+) {
 
     private var candidateList = mutableListOf<String>()
     private val words: List<String>
@@ -20,34 +18,10 @@ class CandidatesAdapter(private val ime: InputMethod) :
     private var input = ""
 
     init {
-        val inputStream = ime.resources.openRawResource(R.raw.words)
+        val inputStream = inputMethod.resources.openRawResource(R.raw.words)
         val reader = BufferedReader(InputStreamReader(inputStream))
         val text = reader.use { it.readText() }
         words = text.lines()
-    }
-
-    class CandidatesViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val textView: TextView = itemView.findViewById(R.id.candidateTextView)
-
-        fun setData(data: String) {
-            textView.text = data
-        }
-    }
-
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CandidatesViewHolder {
-        return CandidatesViewHolder(
-            LayoutInflater.from(parent.context).inflate(R.layout.item_candidate, parent, false)
-        )
-    }
-
-    override fun getItemCount() = candidateList.size
-
-    override fun onBindViewHolder(holder: CandidatesViewHolder, position: Int) {
-        holder.setData(candidateList[position])
-        holder.itemView.setOnClickListener {
-            ime.commitText(candidateList[position].toString())
-            resetInput()
-        }
     }
 
     fun updateInput(key: Char) {
@@ -55,18 +29,34 @@ class CandidatesAdapter(private val ime: InputMethod) :
         updateCandidates()
     }
 
-    @SuppressLint("NotifyDataSetChanged")
     private fun updateCandidates() {
-        val regex = Regex("^(${input})\t(.+)")
+//        val regex = Regex("^(${input})\t(.+)")
         candidateList.clear()
         for (line in words) {
-            val matched = regex.matchAt(line, 0)
-            if (matched != null) {
-                val groups = matched.groupValues
-                candidateList.add(groups[2])
+//            val matched = regex.matchAt(line, 0)
+//            if (matched != null) {
+//                val groups = matched.groupValues
+//                candidateList.add(groups[2])
+//            }
+            if (line.startsWith("${input}\t")) {
+                val word = line.substringAfter('\t')
+                candidateList.add(word)
             }
         }
-        notifyDataSetChanged()
+        updateView()
+    }
+
+    private fun updateView() {
+        view.removeAllViewsInLayout()
+        for (candidate in candidateList) {
+            val button = inflater.inflate(R.layout.item_candidate, view, false) as MaterialButton
+            button.text = candidate
+            button.setOnClickListener {
+                inputMethod.commitText(button.text.toString())
+                resetInput()
+            }
+            view.addView(button)
+        }
     }
 
     fun deleteLast() {
@@ -78,7 +68,7 @@ class CandidatesAdapter(private val ime: InputMethod) :
     fun resetInput() {
         candidateList.clear()
         input = ""
-        notifyDataSetChanged()
+        view.removeAllViewsInLayout()
     }
 
     fun inputIsEmpty(): Boolean {

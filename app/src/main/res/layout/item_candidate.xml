@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.button.MaterialButton xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/candidateTextView"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:paddingStart="8sp"
-    android:paddingTop="8sp"
-    android:paddingEnd="8sp"
-    android:paddingBottom="8sp"
-    tools:text="Item">
-</TextView>
+    android:insetLeft="3dp"
+    android:insetTop="3dp"
+    android:insetRight="3dp"
+    android:insetBottom="3dp"
+    android:minWidth="0dp"
+    android:minHeight="0dp"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="0dp"
+    android:textAllCaps="false"
+    tools:ignore="TouchTargetSizeCheck"
+    tools:text="Item" />

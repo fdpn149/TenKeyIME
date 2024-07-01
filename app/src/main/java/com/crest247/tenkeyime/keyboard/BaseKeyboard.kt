@@ -76,14 +76,14 @@ abstract class BaseKeyboard(
 	}
 
 	protected fun deleteLastInput() {
-//		if(manager.candidatesAdapter.inputIsEmpty())
+		if(manager.candidatesAdapter.inputIsEmpty())
 			inputMethod.sendDownUpKeyEvents(KeyEvent.KEYCODE_DEL)
-//		else
-//			deleteCandidateInput()
+		else
+			deleteCandidateInput()
 	}
 
 	private fun deleteCandidateInput() {
-//		manager.candidatesAdapter.deleteLast()
+		manager.candidatesAdapter.deleteLast()
 	}
 
 	protected val backKeyDown = object : Runnable {

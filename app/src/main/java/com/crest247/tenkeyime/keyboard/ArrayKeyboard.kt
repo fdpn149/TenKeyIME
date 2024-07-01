@@ -37,7 +37,7 @@ class ArrayKeyboard(
 			}
 
 			MotionEvent.ACTION_UP -> {
-//				manager.candidatesAdapter.updateInput(button.text[0])
+				manager.candidatesAdapter.updateInput(button.text[0])
 				button.isPressed = false
 				true
 			}

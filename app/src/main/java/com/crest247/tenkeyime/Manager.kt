@@ -23,8 +23,8 @@ class Manager(
 
 	// Views
 	val baseView: LinearLayout = inflater.inflate(R.layout.activity_ime, null) as LinearLayout
-//	private val candidatesView: RecyclerView = baseView.findViewById(R.id.candidateRecyclerView)
-//	val candidatesAdapter = CandidatesAdapter(inputMethod)
+	private val candidatesView: LinearLayout = baseView.findViewById(R.id.candidatesView)
+	val candidatesAdapter = CandidatesAdapter(inputMethod, candidatesView, inflater)
 
 	private val englishKeyboard =
 		EnglishKeyboard(inputMethod, this, baseView.getChildAt(1) as FrameLayout)
