@@ -5,13 +5,8 @@ import android.view.ContextThemeWrapper
 import android.view.LayoutInflater
 import android.widget.FrameLayout
 import android.widget.LinearLayout
-import androidx.databinding.DataBindingUtil
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.crest247.tenkeyime.databinding.ActivityImeBinding
 import com.crest247.tenkeyime.keyboard.ArrayKeyboard
 import com.crest247.tenkeyime.keyboard.EnglishKeyboard
-import com.crest247.tenkeyime.viewModel.ImeViewModel
 
 class Manager(
 	inputMethod: InputMethod
@@ -30,18 +25,19 @@ class Manager(
 		EnglishKeyboard(inputMethod, this, baseView.getChildAt(1) as FrameLayout)
 	private val arrayKeyboard: ArrayKeyboard
 
-	private val varsBinding: ActivityImeBinding = DataBindingUtil.bind(baseView)!!
-	private val imeViewModel = ImeViewModel()
+//	private val varsBinding: ActivityImeBinding = DataBindingUtil.bind(baseView)!!
+//	private val imeViewModel = ImeViewModel()
 
 	init {
 //		candidatesView.adapter = candidatesAdapter
 //		candidatesView.layoutManager =
 //			LinearLayoutManager(inputMethod, LinearLayoutManager.HORIZONTAL, false)
 
-		varsBinding.viewModel = imeViewModel
-		imeViewModel.keyboardHeight.value = 300
+//		varsBinding.viewModel = imeViewModel
+//		imeViewModel.keyboardHeight.value = 300
 
-		arrayKeyboard = ArrayKeyboard(inputMethod, this, baseView.getChildAt(2) as FrameLayout, varsBinding.keyboardArray)
+		arrayKeyboard = ArrayKeyboard(inputMethod, this, baseView.getChildAt(2) as FrameLayout)
+//		arrayKeyboard = ArrayKeyboard(inputMethod, this, baseView.getChildAt(2) as FrameLayout, varsBinding.keyboardArray)
 	}
 
 	fun changeMode(mode: Int) {

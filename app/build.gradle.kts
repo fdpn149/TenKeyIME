@@ -10,7 +10,7 @@ android {
 
 	defaultConfig {
 		applicationId = "com.crest247.tenkeyime"
-		minSdk = 31
+		minSdk = 30
 		targetSdk = 33
 		versionCode = 1
 		versionName = "1.0"

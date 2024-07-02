@@ -8,24 +8,10 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_height="250dp"
         android:layout_gravity="bottom"
         android:background="?attr/keyboardBackground"
-        tools:ignore="TextSizeCheck">
-
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guidelineStart"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.05" />
-
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guidelineStartRow3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.1" />
+        tools:ignore="TextSizeCheck"
+        tools:layout_height="250dp">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/key26_1"
@@ -42,7 +28,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="1" />
 
@@ -61,7 +47,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_1"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="2" />
 
@@ -80,7 +66,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_2"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="3" />
 
@@ -99,7 +85,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_3"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="4" />
 
@@ -118,7 +104,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_4"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="5" />
 
@@ -135,9 +121,9 @@
             android:tag="char_6"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_5"
+            app:layout_constraintStart_toEndOf="@id/guideline2"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="6" />
 
@@ -156,7 +142,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_6"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="7" />
 
@@ -175,7 +161,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_7"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="8" />
 
@@ -194,7 +180,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_8"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="9" />
 
@@ -213,7 +199,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_9"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="0" />
 
@@ -228,12 +214,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_q"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/key26_0"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="q" />
 
@@ -248,12 +234,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_w"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_Q"
             app:layout_constraintTop_toBottomOf="@id/key26_0"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="w" />
 
@@ -268,12 +254,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_e"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_W"
             app:layout_constraintTop_toBottomOf="@id/key26_0"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="e" />
 
@@ -288,12 +274,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_r"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_E"
             app:layout_constraintTop_toBottomOf="@id/key26_0"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="r" />
 
@@ -308,12 +294,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_t"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_R"
             app:layout_constraintTop_toBottomOf="@id/key26_0"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="t" />
 
@@ -328,12 +314,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_y"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_T"
+            app:layout_constraintStart_toEndOf="@id/guideline2"
             app:layout_constraintTop_toBottomOf="@id/key26_0"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="y" />
 
@@ -348,12 +334,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_u"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_Y"
             app:layout_constraintTop_toBottomOf="@id/key26_0"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="u" />
 
@@ -368,12 +354,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_i"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_U"
             app:layout_constraintTop_toBottomOf="@id/key26_0"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="i" />
 
@@ -388,12 +374,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_o"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_I"
             app:layout_constraintTop_toBottomOf="@id/key26_0"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="o" />
 
@@ -408,12 +394,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_p"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_O"
             app:layout_constraintTop_toBottomOf="@id/key26_0"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="p" />
 
@@ -430,12 +416,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_a"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toStartOf="@id/guidelineStart"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/key26_Q"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="a" />
 
@@ -450,12 +436,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_s"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_A"
             app:layout_constraintTop_toBottomOf="@id/key26_Q"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="s" />
 
@@ -470,12 +456,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_d"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_S"
             app:layout_constraintTop_toBottomOf="@id/key26_Q"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="d" />
 
@@ -490,12 +476,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_f"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_D"
             app:layout_constraintTop_toBottomOf="@id/key26_Q"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="f" />
 
@@ -510,12 +496,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_g"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_F"
             app:layout_constraintTop_toBottomOf="@id/key26_Q"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="g" />
 
@@ -530,12 +516,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_h"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_G"
+            app:layout_constraintStart_toEndOf="@id/guideline2"
             app:layout_constraintTop_toBottomOf="@id/key26_Q"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="h" />
 
@@ -550,12 +536,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_j"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_H"
             app:layout_constraintTop_toBottomOf="@id/key26_Q"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="j" />
 
@@ -570,12 +556,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_k"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_J"
             app:layout_constraintTop_toBottomOf="@id/key26_Q"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="k" />
 
@@ -590,19 +576,17 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_l"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_K"
             app:layout_constraintTop_toBottomOf="@id/key26_Q"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="l" />
 
-        <!-- Third -->
-
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Shift"
+            android:id="@+id/key26_Semicolon"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -611,14 +595,16 @@
             android:insetBottom="3dp"
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
-            android:tag="func_Shift"
+            android:tag="char_Semicolon"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/key26_A"
-            app:layout_constraintWidth_percent="0.15"
-            tools:ignore="TextContrastCheck"
-            tools:text="⇧" />
+            app:layout_constraintStart_toEndOf="@id/key26_L"
+            app:layout_constraintTop_toBottomOf="@id/key26_Q"
+            app:layout_constraintWidth_percent="0.06"
+            tools:ignore="TouchTargetSizeCheck"
+            tools:text=";" />
+
+        <!-- Third -->
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/key26_Z"
@@ -631,12 +617,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_z"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_Shift"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/key26_A"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="z" />
 
@@ -651,12 +637,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_x"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_Z"
             app:layout_constraintTop_toBottomOf="@id/key26_A"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="x" />
 
@@ -671,12 +657,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_c"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_X"
             app:layout_constraintTop_toBottomOf="@id/key26_A"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="c" />
 
@@ -691,12 +677,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_v"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_C"
             app:layout_constraintTop_toBottomOf="@id/key26_A"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="v" />
 
@@ -711,12 +697,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_b"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_V"
             app:layout_constraintTop_toBottomOf="@id/key26_A"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="b" />
 
@@ -731,12 +717,12 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_n"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_B"
+            app:layout_constraintStart_toEndOf="@id/guideline2"
             app:layout_constraintTop_toBottomOf="@id/key26_A"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="n" />
 
@@ -751,17 +737,17 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="char_m"
-            android:textSize="14sp"
             android:textAllCaps="false"
+            android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_N"
             app:layout_constraintTop_toBottomOf="@id/key26_A"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="m" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Back"
+            android:id="@+id/key26_Comma"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -770,13 +756,54 @@
             android:insetBottom="3dp"
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
-            android:tag="func_Back"
+            android:tag="char_Comma"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_M"
             app:layout_constraintTop_toBottomOf="@id/key26_A"
-            app:layout_constraintWidth_percent="0.15"
-            tools:text="⌫" />
+            app:layout_constraintWidth_percent="0.06"
+            tools:ignore="TouchTargetSizeCheck"
+            tools:text="," />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key26_Period"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:insetLeft="3dp"
+            android:insetTop="3dp"
+            android:insetRight="3dp"
+            android:insetBottom="3dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:tag="char_Period"
+            android:textSize="14sp"
+            app:layout_constraintHeight_percent="0.2"
+            app:layout_constraintStart_toEndOf="@id/key26_Comma"
+            app:layout_constraintTop_toBottomOf="@id/key26_A"
+            app:layout_constraintWidth_percent="0.06"
+            tools:ignore="TouchTargetSizeCheck"
+            tools:text="." />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key26_Slash"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:insetLeft="3dp"
+            android:insetTop="3dp"
+            android:insetRight="3dp"
+            android:insetBottom="3dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:tag="char_Slash"
+            android:textSize="14sp"
+            app:layout_constraintHeight_percent="0.2"
+            app:layout_constraintStart_toEndOf="@id/key26_Period"
+            app:layout_constraintTop_toBottomOf="@id/key26_A"
+            app:layout_constraintWidth_percent="0.06"
+            tools:ignore="TouchTargetSizeCheck"
+            tools:text="/" />
+
+        <!--        Forth-->
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/key26_Mode"
@@ -793,7 +820,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/key26_Z"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:text="!#1" />
 
         <com.google.android.material.button.MaterialButton
@@ -807,16 +834,17 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="func_Mode2"
+            android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_Mode"
             app:layout_constraintTop_toBottomOf="@id/key26_Z"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
-            tools:text="中" />
+            tools:text="abc" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Comma"
+            android:id="@+id/key26_Shift"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -825,14 +853,14 @@
             android:insetBottom="3dp"
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
-            android:tag="char_Comma"
+            android:tag="func_Shift"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_Mode2"
             app:layout_constraintTop_toBottomOf="@id/key26_Z"
-            app:layout_constraintWidth_percent="0.1"
-            tools:ignore="TouchTargetSizeCheck"
-            tools:text="," />
+            app:layout_constraintWidth_percent="0.12"
+            tools:ignore="TextContrastCheck"
+            tools:text="⇧" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/key26_Space"
@@ -847,14 +875,14 @@
             android:tag="func_Space"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_Comma"
+            app:layout_constraintStart_toEndOf="@id/key26_Shift"
             app:layout_constraintTop_toBottomOf="@id/key26_Z"
-            app:layout_constraintWidth_percent="0.45"
+            app:layout_constraintWidth_percent="0.52"
             tools:ignore="TouchTargetSizeCheck,VisualLintButtonSize"
             tools:text="Space" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Period"
+            android:id="@+id/key26_Back"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -863,14 +891,13 @@
             android:insetBottom="3dp"
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
-            android:tag="char_Period"
+            android:tag="func_Back"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/key26_Space"
             app:layout_constraintTop_toBottomOf="@id/key26_Z"
-            app:layout_constraintWidth_percent="0.1"
-            tools:ignore="TouchTargetSizeCheck"
-            tools:text="." />
+            app:layout_constraintWidth_percent="0.12"
+            tools:text="⌫" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/key26_Enter"
@@ -885,11 +912,18 @@
             android:tag="func_Enter"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_Period"
+            app:layout_constraintStart_toEndOf="@id/key26_Back"
             app:layout_constraintTop_toBottomOf="@id/key26_Z"
-            app:layout_constraintWidth_percent="0.15"
+            app:layout_constraintWidth_percent="0.12"
             tools:text="⏎" />
 
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.7" />
+        
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

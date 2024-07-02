@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?><!-- syntax for HorizontalScrollView -->
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_height="40dp"
     android:background="?attr/keyboardBackground"
     android:orientation="horizontal"
     android:scrollbars="none"
@@ -12,167 +13,8 @@
     <LinearLayout
         android:id="@+id/candidatesView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="horizontal">
 
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:insetLeft="3dp"
-            android:insetTop="3dp"
-            android:insetRight="3dp"
-            android:insetBottom="3dp"
-            android:minWidth="0dp"
-            android:minHeight="0dp"
-            android:paddingLeft="0dp"
-            android:paddingTop="0dp"
-            android:paddingRight="0dp"
-            android:paddingBottom="0dp"
-            android:text="Item1"
-            android:textAllCaps="false" />
-
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:insetLeft="3dp"
-            android:insetTop="3dp"
-            android:insetRight="3dp"
-            android:insetBottom="3dp"
-            android:minWidth="0dp"
-            android:minHeight="0dp"
-            android:paddingLeft="0dp"
-            android:paddingTop="0dp"
-            android:paddingRight="0dp"
-            android:paddingBottom="0dp"
-            android:text="Item2"
-            android:textAllCaps="false" />
-
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:insetLeft="3dp"
-            android:insetTop="3dp"
-            android:insetRight="3dp"
-            android:insetBottom="3dp"
-            android:minWidth="0dp"
-            android:minHeight="0dp"
-            android:paddingLeft="0dp"
-            android:paddingTop="0dp"
-            android:paddingRight="0dp"
-            android:paddingBottom="0dp"
-            android:text="Item3"
-            android:textAllCaps="false" />
-
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:insetLeft="3dp"
-            android:insetTop="3dp"
-            android:insetRight="3dp"
-            android:insetBottom="3dp"
-            android:minWidth="0dp"
-            android:minHeight="0dp"
-            android:paddingLeft="0dp"
-            android:paddingTop="0dp"
-            android:paddingRight="0dp"
-            android:paddingBottom="0dp"
-            android:text="Item4"
-            android:textAllCaps="false" />
-
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:insetLeft="3dp"
-            android:insetTop="3dp"
-            android:insetRight="3dp"
-            android:insetBottom="3dp"
-            android:minWidth="0dp"
-            android:minHeight="0dp"
-            android:paddingLeft="0dp"
-            android:paddingTop="0dp"
-            android:paddingRight="0dp"
-            android:paddingBottom="0dp"
-            android:text="Item5"
-            android:textAllCaps="false" />
-
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:insetLeft="3dp"
-            android:insetTop="3dp"
-            android:insetRight="3dp"
-            android:insetBottom="3dp"
-            android:minWidth="0dp"
-            android:minHeight="0dp"
-            android:paddingLeft="0dp"
-            android:paddingTop="0dp"
-            android:paddingRight="0dp"
-            android:paddingBottom="0dp"
-            android:text="Item6"
-            android:textAllCaps="false" />
-
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:insetLeft="3dp"
-            android:insetTop="3dp"
-            android:insetRight="3dp"
-            android:insetBottom="3dp"
-            android:minWidth="0dp"
-            android:minHeight="0dp"
-            android:paddingLeft="0dp"
-            android:paddingTop="0dp"
-            android:paddingRight="0dp"
-            android:paddingBottom="0dp"
-            android:text="Item7"
-            android:textAllCaps="false" />
-
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:insetLeft="3dp"
-            android:insetTop="3dp"
-            android:insetRight="3dp"
-            android:insetBottom="3dp"
-            android:minWidth="0dp"
-            android:minHeight="0dp"
-            android:paddingLeft="0dp"
-            android:paddingTop="0dp"
-            android:paddingRight="0dp"
-            android:paddingBottom="0dp"
-            android:text="Item8"
-            android:textAllCaps="false" />
-
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:insetLeft="3dp"
-            android:insetTop="3dp"
-            android:insetRight="3dp"
-            android:insetBottom="3dp"
-            android:minWidth="0dp"
-            android:minHeight="0dp"
-            android:paddingLeft="0dp"
-            android:paddingTop="0dp"
-            android:paddingRight="0dp"
-            android:paddingBottom="0dp"
-            android:text="Item9"
-            android:textAllCaps="false" />
-
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:insetLeft="3dp"
-            android:insetTop="3dp"
-            android:insetRight="3dp"
-            android:insetBottom="3dp"
-            android:minWidth="0dp"
-            android:minHeight="0dp"
-            android:paddingLeft="0dp"
-            android:paddingTop="0dp"
-            android:paddingRight="0dp"
-            android:paddingBottom="0dp"
-            android:text="Item10"
-            android:textAllCaps="false" />
     </LinearLayout>
 </HorizontalScrollView>
