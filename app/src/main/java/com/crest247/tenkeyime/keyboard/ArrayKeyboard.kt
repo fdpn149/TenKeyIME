@@ -108,7 +108,7 @@ class ArrayKeyboard(
 							KeyEvent.KEYCODE_ENTER
 						)
 					)
-
+					FuncKeys.Mode -> manager.changeMode(3)
 					FuncKeys.Mode2 -> manager.changeMode(1)
 
 					else -> {}

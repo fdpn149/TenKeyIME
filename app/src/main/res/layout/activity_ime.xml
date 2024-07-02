@@ -27,4 +27,11 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:visibility="gone" />
+
+    <include
+        android:id="@+id/keyboard_symbol"
+        layout="@layout/keyboard_symbol"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:visibility="gone" />
 </LinearLayout>

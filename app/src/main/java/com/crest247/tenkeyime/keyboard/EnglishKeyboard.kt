@@ -90,7 +90,7 @@ class EnglishKeyboard(inputMethod: InputMethod, manager: Manager, view: FrameLay
 							KeyEvent.KEYCODE_ENTER
 						)
 					)
-
+					FuncKeys.Mode -> manager.changeMode(3)
 					FuncKeys.Mode2 -> manager.changeMode(2)
 
 					else -> {}

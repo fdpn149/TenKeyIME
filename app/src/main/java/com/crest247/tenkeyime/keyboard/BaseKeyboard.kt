@@ -16,7 +16,7 @@ import com.google.android.material.button.MaterialButton
 @SuppressLint("ClickableViewAccessibility")
 abstract class BaseKeyboard(
 	protected val inputMethod: InputMethod,
-	public val view: FrameLayout,
+	val view: FrameLayout,
 	protected val charKeysMap: Map<String, String>,
 	funcKeysMap: Map<FuncKeys, String>,
 	protected val manager: Manager
