@@ -28,7 +28,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="~" />
 
@@ -47,7 +47,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_11"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="_" />
 
@@ -66,7 +66,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_12"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="+" />
 
@@ -85,7 +85,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_13"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="{" />
 
@@ -104,7 +104,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_14"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="}" />
 
@@ -121,9 +121,9 @@
             android:tag="char_16"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@+id/keySym_15"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="|" />
 
@@ -142,7 +142,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_16"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text=":" />
 
@@ -161,7 +161,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_17"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="&quot;" />
 
@@ -180,7 +180,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_18"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="\?" />
 
@@ -199,7 +199,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_19"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="°" />
 
@@ -218,7 +218,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/keySym_11"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="`" />
 
@@ -237,7 +237,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_21"
             app:layout_constraintTop_toBottomOf="@+id/keySym_11"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="-" />
 
@@ -256,7 +256,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_22"
             app:layout_constraintTop_toBottomOf="@+id/keySym_11"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="=" />
 
@@ -275,7 +275,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_23"
             app:layout_constraintTop_toBottomOf="@+id/keySym_11"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="[" />
 
@@ -294,7 +294,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_24"
             app:layout_constraintTop_toBottomOf="@+id/keySym_11"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="]" />
 
@@ -311,9 +311,9 @@
             android:tag="char_26"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@+id/keySym_25"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintTop_toBottomOf="@+id/keySym_11"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="\" />
 
@@ -332,7 +332,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_26"
             app:layout_constraintTop_toBottomOf="@+id/keySym_11"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text=";" />
 
@@ -351,7 +351,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_27"
             app:layout_constraintTop_toBottomOf="@+id/keySym_11"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="'" />
 
@@ -370,7 +370,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_28"
             app:layout_constraintTop_toBottomOf="@+id/keySym_11"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="/" />
 
@@ -389,7 +389,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_29"
             app:layout_constraintTop_toBottomOf="@+id/keySym_11"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="•" />
 
@@ -408,7 +408,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/keySym_21"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="😂" />
 
@@ -427,7 +427,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_31"
             app:layout_constraintTop_toBottomOf="@+id/keySym_21"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="😮" />
 
@@ -446,7 +446,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_32"
             app:layout_constraintTop_toBottomOf="@+id/keySym_21"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="🥳" />
 
@@ -465,7 +465,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_33"
             app:layout_constraintTop_toBottomOf="@+id/keySym_21"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="🤔" />
 
@@ -484,7 +484,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_34"
             app:layout_constraintTop_toBottomOf="@+id/keySym_21"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="😢" />
 
@@ -501,9 +501,9 @@
             android:tag="char_36"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@+id/keySym_35"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintTop_toBottomOf="@+id/keySym_21"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="👍" />
 
@@ -522,7 +522,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_36"
             app:layout_constraintTop_toBottomOf="@+id/keySym_21"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="🈶" />
 
@@ -541,7 +541,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_37"
             app:layout_constraintTop_toBottomOf="@+id/keySym_21"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="🉑" />
 
@@ -560,7 +560,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_38"
             app:layout_constraintTop_toBottomOf="@+id/keySym_21"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="⁉" />
 
@@ -579,7 +579,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_39"
             app:layout_constraintTop_toBottomOf="@+id/keySym_21"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="🆒" />
 
@@ -599,7 +599,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/keySym_31"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="🤣" />
 
@@ -618,7 +618,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_41"
             app:layout_constraintTop_toBottomOf="@+id/keySym_31"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="🤯" />
 
@@ -637,7 +637,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_42"
             app:layout_constraintTop_toBottomOf="@+id/keySym_31"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="🤩" />
 
@@ -656,7 +656,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_43"
             app:layout_constraintTop_toBottomOf="@+id/keySym_31"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="🙃" />
 
@@ -675,7 +675,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_44"
             app:layout_constraintTop_toBottomOf="@+id/keySym_31"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="😵‍💫" />
 
@@ -692,9 +692,9 @@
             android:tag="char_46"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@+id/keySym_45"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintTop_toBottomOf="@+id/keySym_31"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="👌" />
 
@@ -713,7 +713,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_46"
             app:layout_constraintTop_toBottomOf="@+id/keySym_31"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="🈚" />
 
@@ -732,7 +732,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_47"
             app:layout_constraintTop_toBottomOf="@+id/keySym_31"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="💯" />
 
@@ -751,7 +751,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_48"
             app:layout_constraintTop_toBottomOf="@+id/keySym_31"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="❔" />
 
@@ -770,7 +770,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_49"
             app:layout_constraintTop_toBottomOf="@+id/keySym_31"
-            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="🆗" />
 
@@ -790,7 +790,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/keySym_41"
-            app:layout_constraintWidth_percent="0.15"
+            app:layout_constraintWidth_percent="0.12"
             tools:text="abc" />
 
         <com.google.android.material.button.MaterialButton
@@ -808,7 +808,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/keySym_Mode"
             app:layout_constraintTop_toBottomOf="@id/keySym_41"
-            app:layout_constraintWidth_percent="0.15"
+            app:layout_constraintWidth_percent="0.12"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="中" />
 
@@ -827,7 +827,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@+id/keySym_Mode2"
             app:layout_constraintTop_toBottomOf="@id/keySym_41"
-            app:layout_constraintWidth_percent="0.4"
+            app:layout_constraintWidth_percent="0.52"
             tools:ignore="TouchTargetSizeCheck,VisualLintButtonSize"
             tools:text="Space" />
 
@@ -846,7 +846,7 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/keySym_Space"
             app:layout_constraintTop_toBottomOf="@id/keySym_41"
-            app:layout_constraintWidth_percent="0.15"
+            app:layout_constraintWidth_percent="0.12"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="⌫" />
 
@@ -865,8 +865,15 @@
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/keySym_Back"
             app:layout_constraintTop_toBottomOf="@id/keySym_41"
-            app:layout_constraintWidth_percent="0.15"
+            app:layout_constraintWidth_percent="0.12"
             tools:text="⏎" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.7" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
