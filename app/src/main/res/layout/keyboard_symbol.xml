@@ -810,7 +810,7 @@
             app:layout_constraintTop_toBottomOf="@id/keySym_41"
             app:layout_constraintWidth_percent="0.15"
             tools:ignore="TouchTargetSizeCheck"
-            tools:text="中" />
+            tools:text="注" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/keySym_Space"

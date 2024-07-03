@@ -827,7 +827,7 @@
             app:layout_constraintTop_toBottomOf="@id/key26_Z"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
-            tools:text="中" />
+            tools:text="注" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/key26_Comma"

@@ -91,7 +91,7 @@ class EnglishKeyboard(inputMethod: InputMethod, manager: Manager, view: FrameLay
 						)
 					)
 					FuncKeys.Mode -> manager.changeMode(3)
-					FuncKeys.Mode2 -> manager.changeMode(2)
+					FuncKeys.Mode2 -> manager.changeMode(4)
 
 					else -> {}
 				}
@@ -129,7 +129,7 @@ private fun createFuncKeysMap(): Map<BaseKeyboard.FuncKeys, String> {
 	result[BaseKeyboard.FuncKeys.Shift] = "⇧"
 	result[BaseKeyboard.FuncKeys.Back] = "⌫"
 	result[BaseKeyboard.FuncKeys.Mode] = "!#1"
-	result[BaseKeyboard.FuncKeys.Mode2] = "中"
+	result[BaseKeyboard.FuncKeys.Mode2] = "注"
 	result[BaseKeyboard.FuncKeys.Space] = " "
 	result[BaseKeyboard.FuncKeys.Enter] = "⏎"
 	return result

@@ -7,8 +7,6 @@ import android.widget.FrameLayout
 import androidx.core.view.children
 import com.crest247.tenkeyime.InputMethod
 import com.crest247.tenkeyime.Manager
-//import com.crest247.tenkeyime.databinding.KeyboardArrayBinding
-//import com.crest247.tenkeyime.viewModel.ImeViewModel
 import com.google.android.material.button.MaterialButton
 
 @SuppressLint("ClickableViewAccessibility")
@@ -16,18 +14,13 @@ class ArrayKeyboard(
 	inputMethod: InputMethod,
 	manager: Manager,
 	view: FrameLayout,
-//	varsBinding: KeyboardArrayBinding
 ) :
 	BaseKeyboard(inputMethod, view, createCharKeysMap(), createFuncKeysMap(), manager) {
 
 	private var shifted = false
 	private var shiftKeysMap: Map<String, String>
-//	private val arrayViewModel = ImeViewModel()
 
 	init {
-//		varsBinding.viewModel = arrayViewModel
-//		arrayViewModel.fontSize.value = 36.0f
-
 		val symbols = arrayOf(")", "!", "@", "#", "$", "%", "^", "&", "*", "(")
 		val shiftDigitsMap = (0..9).associate { it.toString() to symbols[it] }
 		val shiftCharsMap = ('a'..'z').associate { it.toString() to it.uppercase() }.toMutableMap()
@@ -108,8 +101,8 @@ class ArrayKeyboard(
 							KeyEvent.KEYCODE_ENTER
 						)
 					)
-					FuncKeys.Mode -> manager.changeMode(3)
-					FuncKeys.Mode2 -> manager.changeMode(1)
+					FuncKeys.Mode -> manager.changeMode(1)
+					FuncKeys.Mode2 -> manager.changeMode(4)
 
 					else -> {}
 				}
@@ -147,8 +140,8 @@ private fun createFuncKeysMap(): Map<BaseKeyboard.FuncKeys, String> {
 	val result = mutableMapOf<BaseKeyboard.FuncKeys, String>()
 	result[BaseKeyboard.FuncKeys.Shift] = "⇧"
 	result[BaseKeyboard.FuncKeys.Back] = "⌫"
-	result[BaseKeyboard.FuncKeys.Mode] = "!#1"
-	result[BaseKeyboard.FuncKeys.Mode2] = "abc"
+	result[BaseKeyboard.FuncKeys.Mode] = "abc"
+	result[BaseKeyboard.FuncKeys.Mode2] = "注"
 	result[BaseKeyboard.FuncKeys.Space] = " "
 	result[BaseKeyboard.FuncKeys.Enter] = "⏎"
 	return result

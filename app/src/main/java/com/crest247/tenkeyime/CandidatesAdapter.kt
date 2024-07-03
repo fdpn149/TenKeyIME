@@ -1,10 +1,8 @@
 package com.crest247.tenkeyime
 
-import android.view.Gravity
 import android.view.LayoutInflater
 import android.widget.LinearLayout
 import android.widget.TextView
-import androidx.core.view.setPadding
 import com.google.android.material.button.MaterialButton
 import java.io.BufferedReader
 import java.io.InputStreamReader
@@ -16,30 +14,38 @@ class CandidatesAdapter(
 ) {
 
     private var candidateList = mutableListOf<String>()
-    private val words: List<String>
+    private val arrayWords: List<String>
+    private val bopomofoWords: List<String>
+
 
     private var input = ""
 
     init {
-        val inputStream = inputMethod.resources.openRawResource(R.raw.words)
+        arrayWords = initWordsList(R.raw.array)
+        bopomofoWords = initWordsList(R.raw.bopomofo)
+    }
+
+    private fun initWordsList(id: Int): List<String> {
+        val inputStream = inputMethod.resources.openRawResource(id)
         val reader = BufferedReader(InputStreamReader(inputStream))
         val text = reader.use { it.readText() }
-        words = text.lines()
-
-        val textView = inflater.inflate(R.layout.item_input, view, false) as TextView
-        textView.text = input
-        view.addView(textView)
+        return text.lines()
     }
 
     fun updateInput(key: Char) {
         input += key
-        updateCandidates()
+
+        when(inputMethod.keyboardType) {
+            2 -> updateArrayCandidates()
+            4 -> updateBopomofoCandidates()
+            else -> {}
+        }
     }
 
-    private fun updateCandidates() {
+    private fun updateArrayCandidates() {
 //        val regex = Regex("^(${input})\t(.+)")
         candidateList.clear()
-        for (line in words) {
+        for (line in arrayWords) {
 //            val matched = regex.matchAt(line, 0)
 //            if (matched != null) {
 //                val groups = matched.groupValues
@@ -50,6 +56,10 @@ class CandidatesAdapter(
                 candidateList.add(word)
             }
         }
+        updateView()
+    }
+
+    private fun updateBopomofoCandidates() {
         updateView()
     }
 
@@ -78,7 +88,12 @@ class CandidatesAdapter(
     fun deleteLast() {
         candidateList.clear()
         input = input.dropLast(1)
-        updateCandidates()
+
+        when(inputMethod.keyboardType) {
+            2 -> updateArrayCandidates()
+            4 -> updateBopomofoCandidates()
+            else -> {}
+        }
     }
 
     private fun resetInput() {

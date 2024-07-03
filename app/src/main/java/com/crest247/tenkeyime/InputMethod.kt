@@ -8,21 +8,23 @@ import android.view.inputmethod.EditorInfo
 
 class InputMethod : InputMethodService() {
 
-	private lateinit var manager: Manager
+    private lateinit var manager: Manager
 
-	@SuppressLint("ClickableViewAccessibility")
-	override fun onCreateInputView(): View {
-		manager = Manager(this)
-		return manager.baseView
-	}
+    var keyboardType: Int = 1
 
-	override fun onStartInputView(editorInfo: EditorInfo?, restarting: Boolean) {
-		super.onStartInputView(editorInfo, restarting)
+    @SuppressLint("ClickableViewAccessibility")
+    override fun onCreateInputView(): View {
+        manager = Manager(this)
+        return manager.baseView
+    }
 
-	}
+    override fun onStartInputView(editorInfo: EditorInfo?, restarting: Boolean) {
+        super.onStartInputView(editorInfo, restarting)
 
-	fun commitText(text: String) {
-		val inputConnection = currentInputConnection
-		inputConnection?.commitText(text, text.length)
-	}
+    }
+
+    fun commitText(text: String) {
+        val inputConnection = currentInputConnection
+        inputConnection?.commitText(text, text.length)
+    }
 }

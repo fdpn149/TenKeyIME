@@ -14,7 +14,7 @@
         tools:layout_height="250dp">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_1"
+            android:id="@+id/keyArray_1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -33,7 +33,7 @@
             tools:text="1" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_2"
+            android:id="@+id/keyArray_2"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -45,14 +45,14 @@
             android:tag="char_2"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_1"
+            app:layout_constraintStart_toEndOf="@id/keyArray_1"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="2" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_3"
+            android:id="@+id/keyArray_3"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -64,14 +64,14 @@
             android:tag="char_3"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_2"
+            app:layout_constraintStart_toEndOf="@id/keyArray_2"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="3" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_4"
+            android:id="@+id/keyArray_4"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -83,14 +83,14 @@
             android:tag="char_4"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_3"
+            app:layout_constraintStart_toEndOf="@id/keyArray_3"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="4" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_5"
+            android:id="@+id/keyArray_5"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -102,14 +102,14 @@
             android:tag="char_5"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_4"
+            app:layout_constraintStart_toEndOf="@id/keyArray_4"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="5" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_6"
+            android:id="@+id/keyArray_6"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -128,7 +128,7 @@
             tools:text="6" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_7"
+            android:id="@+id/keyArray_7"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -140,14 +140,14 @@
             android:tag="char_7"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_6"
+            app:layout_constraintStart_toEndOf="@id/keyArray_6"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="7" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_8"
+            android:id="@+id/keyArray_8"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -159,14 +159,14 @@
             android:tag="char_8"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_7"
+            app:layout_constraintStart_toEndOf="@id/keyArray_7"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="8" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_9"
+            android:id="@+id/keyArray_9"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -178,14 +178,14 @@
             android:tag="char_9"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_8"
+            app:layout_constraintStart_toEndOf="@id/keyArray_8"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="9" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_0"
+            android:id="@+id/keyArray_0"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -197,14 +197,14 @@
             android:tag="char_0"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_9"
+            app:layout_constraintStart_toEndOf="@id/keyArray_9"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="0" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Q"
+            android:id="@+id/keyArray_Q"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -218,13 +218,13 @@
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/key26_0"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_0"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="q" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_W"
+            android:id="@+id/keyArray_W"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -237,14 +237,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_Q"
-            app:layout_constraintTop_toBottomOf="@id/key26_0"
+            app:layout_constraintStart_toEndOf="@id/keyArray_Q"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_0"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="w" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_E"
+            android:id="@+id/keyArray_E"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -257,14 +257,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_W"
-            app:layout_constraintTop_toBottomOf="@id/key26_0"
+            app:layout_constraintStart_toEndOf="@id/keyArray_W"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_0"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="e" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_R"
+            android:id="@+id/keyArray_R"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -277,14 +277,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_E"
-            app:layout_constraintTop_toBottomOf="@id/key26_0"
+            app:layout_constraintStart_toEndOf="@id/keyArray_E"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_0"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="r" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_T"
+            android:id="@+id/keyArray_T"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -297,14 +297,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_R"
-            app:layout_constraintTop_toBottomOf="@id/key26_0"
+            app:layout_constraintStart_toEndOf="@id/keyArray_R"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_0"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="t" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Y"
+            android:id="@+id/keyArray_Y"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -318,13 +318,13 @@
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/guideline2"
-            app:layout_constraintTop_toBottomOf="@id/key26_0"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_0"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="y" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_U"
+            android:id="@+id/keyArray_U"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -337,14 +337,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_Y"
-            app:layout_constraintTop_toBottomOf="@id/key26_0"
+            app:layout_constraintStart_toEndOf="@id/keyArray_Y"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_0"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="u" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_I"
+            android:id="@+id/keyArray_I"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -357,14 +357,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_U"
-            app:layout_constraintTop_toBottomOf="@id/key26_0"
+            app:layout_constraintStart_toEndOf="@id/keyArray_U"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_0"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="i" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_O"
+            android:id="@+id/keyArray_O"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -377,14 +377,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_I"
-            app:layout_constraintTop_toBottomOf="@id/key26_0"
+            app:layout_constraintStart_toEndOf="@id/keyArray_I"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_0"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="o" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_P"
+            android:id="@+id/keyArray_P"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -397,8 +397,8 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_O"
-            app:layout_constraintTop_toBottomOf="@id/key26_0"
+            app:layout_constraintStart_toEndOf="@id/keyArray_O"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_0"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="p" />
@@ -406,7 +406,7 @@
         <!-- Second -->
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_A"
+            android:id="@+id/keyArray_A"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -420,13 +420,13 @@
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/key26_Q"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Q"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="a" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_S"
+            android:id="@+id/keyArray_S"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -439,14 +439,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_A"
-            app:layout_constraintTop_toBottomOf="@id/key26_Q"
+            app:layout_constraintStart_toEndOf="@id/keyArray_A"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Q"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="s" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_D"
+            android:id="@+id/keyArray_D"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -459,14 +459,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_S"
-            app:layout_constraintTop_toBottomOf="@id/key26_Q"
+            app:layout_constraintStart_toEndOf="@id/keyArray_S"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Q"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="d" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_F"
+            android:id="@+id/keyArray_F"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -479,14 +479,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_D"
-            app:layout_constraintTop_toBottomOf="@id/key26_Q"
+            app:layout_constraintStart_toEndOf="@id/keyArray_D"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Q"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="f" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_G"
+            android:id="@+id/keyArray_G"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -499,14 +499,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_F"
-            app:layout_constraintTop_toBottomOf="@id/key26_Q"
+            app:layout_constraintStart_toEndOf="@id/keyArray_F"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Q"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="g" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_H"
+            android:id="@+id/keyArray_H"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -520,13 +520,13 @@
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/guideline2"
-            app:layout_constraintTop_toBottomOf="@id/key26_Q"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Q"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="h" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_J"
+            android:id="@+id/keyArray_J"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -539,14 +539,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_H"
-            app:layout_constraintTop_toBottomOf="@id/key26_Q"
+            app:layout_constraintStart_toEndOf="@id/keyArray_H"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Q"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="j" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_K"
+            android:id="@+id/keyArray_K"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -559,14 +559,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_J"
-            app:layout_constraintTop_toBottomOf="@id/key26_Q"
+            app:layout_constraintStart_toEndOf="@id/keyArray_J"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Q"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="k" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_L"
+            android:id="@+id/keyArray_L"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -579,14 +579,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_K"
-            app:layout_constraintTop_toBottomOf="@id/key26_Q"
+            app:layout_constraintStart_toEndOf="@id/keyArray_K"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Q"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="l" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Semicolon"
+            android:id="@+id/keyArray_Semicolon"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -598,8 +598,8 @@
             android:tag="char_Semicolon"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_L"
-            app:layout_constraintTop_toBottomOf="@id/key26_Q"
+            app:layout_constraintStart_toEndOf="@id/keyArray_L"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Q"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text=";" />
@@ -607,7 +607,7 @@
         <!-- Third -->
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Z"
+            android:id="@+id/keyArray_Z"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -621,13 +621,13 @@
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/key26_A"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_A"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="z" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_X"
+            android:id="@+id/keyArray_X"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -640,14 +640,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_Z"
-            app:layout_constraintTop_toBottomOf="@id/key26_A"
+            app:layout_constraintStart_toEndOf="@id/keyArray_Z"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_A"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="x" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_C"
+            android:id="@+id/keyArray_C"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -660,14 +660,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_X"
-            app:layout_constraintTop_toBottomOf="@id/key26_A"
+            app:layout_constraintStart_toEndOf="@id/keyArray_X"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_A"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="c" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_V"
+            android:id="@+id/keyArray_V"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -680,14 +680,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_C"
-            app:layout_constraintTop_toBottomOf="@id/key26_A"
+            app:layout_constraintStart_toEndOf="@id/keyArray_C"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_A"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="v" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_B"
+            android:id="@+id/keyArray_B"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -700,14 +700,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_V"
-            app:layout_constraintTop_toBottomOf="@id/key26_A"
+            app:layout_constraintStart_toEndOf="@id/keyArray_V"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_A"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="b" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_N"
+            android:id="@+id/keyArray_N"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -721,13 +721,13 @@
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/guideline2"
-            app:layout_constraintTop_toBottomOf="@id/key26_A"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_A"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="n" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_M"
+            android:id="@+id/keyArray_M"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -740,14 +740,14 @@
             android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_N"
-            app:layout_constraintTop_toBottomOf="@id/key26_A"
+            app:layout_constraintStart_toEndOf="@id/keyArray_N"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_A"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="m" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Comma"
+            android:id="@+id/keyArray_Comma"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -759,14 +759,14 @@
             android:tag="char_Comma"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_M"
-            app:layout_constraintTop_toBottomOf="@id/key26_A"
+            app:layout_constraintStart_toEndOf="@id/keyArray_M"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_A"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="," />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Period"
+            android:id="@+id/keyArray_Period"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -778,14 +778,14 @@
             android:tag="char_Period"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_Comma"
-            app:layout_constraintTop_toBottomOf="@id/key26_A"
+            app:layout_constraintStart_toEndOf="@id/keyArray_Comma"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_A"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="." />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Slash"
+            android:id="@+id/keyArray_Slash"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -797,8 +797,8 @@
             android:tag="char_Slash"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_Period"
-            app:layout_constraintTop_toBottomOf="@id/key26_A"
+            app:layout_constraintStart_toEndOf="@id/keyArray_Period"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_A"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
             tools:text="/" />
@@ -806,7 +806,7 @@
         <!--        Forth-->
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Mode"
+            android:id="@+id/keyArray_Mode"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -816,15 +816,16 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="func_Mode"
+            android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/key26_Z"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Z"
             app:layout_constraintWidth_percent="0.06"
-            tools:text="!#1" />
+            tools:text="abc" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Mode2"
+            android:id="@+id/keyArray_Mode2"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -834,17 +835,16 @@
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
             android:tag="func_Mode2"
-            android:textAllCaps="false"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_Mode"
-            app:layout_constraintTop_toBottomOf="@id/key26_Z"
+            app:layout_constraintStart_toEndOf="@id/keyArray_Mode"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Z"
             app:layout_constraintWidth_percent="0.06"
             tools:ignore="TouchTargetSizeCheck"
-            tools:text="abc" />
+            tools:text="注" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Shift"
+            android:id="@+id/keyArray_Shift"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -856,14 +856,14 @@
             android:tag="func_Shift"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_Mode2"
-            app:layout_constraintTop_toBottomOf="@id/key26_Z"
+            app:layout_constraintStart_toEndOf="@id/keyArray_Mode2"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Z"
             app:layout_constraintWidth_percent="0.12"
             tools:ignore="TextContrastCheck"
             tools:text="⇧" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Space"
+            android:id="@+id/keyArray_Space"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -875,14 +875,14 @@
             android:tag="func_Space"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_Shift"
-            app:layout_constraintTop_toBottomOf="@id/key26_Z"
+            app:layout_constraintStart_toEndOf="@id/keyArray_Shift"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Z"
             app:layout_constraintWidth_percent="0.52"
             tools:ignore="TouchTargetSizeCheck,VisualLintButtonSize"
             tools:text="Space" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Back"
+            android:id="@+id/keyArray_Back"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -894,13 +894,13 @@
             android:tag="func_Back"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_Space"
-            app:layout_constraintTop_toBottomOf="@id/key26_Z"
+            app:layout_constraintStart_toEndOf="@id/keyArray_Space"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Z"
             app:layout_constraintWidth_percent="0.12"
             tools:text="⌫" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key26_Enter"
+            android:id="@+id/keyArray_Enter"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -912,8 +912,8 @@
             android:tag="func_Enter"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/key26_Back"
-            app:layout_constraintTop_toBottomOf="@id/key26_Z"
+            app:layout_constraintStart_toEndOf="@id/keyArray_Back"
+            app:layout_constraintTop_toBottomOf="@id/keyArray_Z"
             app:layout_constraintWidth_percent="0.12"
             tools:text="⏎" />
 
@@ -923,7 +923,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             app:layout_constraintGuide_percent="0.7" />
-        
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

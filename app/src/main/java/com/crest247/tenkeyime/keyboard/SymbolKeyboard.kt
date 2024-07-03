@@ -71,7 +71,7 @@ class SymbolKeyboard(inputMethod: InputMethod, manager: Manager, view: FrameLayo
                     )
 
                     FuncKeys.Mode -> manager.changeMode(1)
-                    FuncKeys.Mode2 -> manager.changeMode(2)
+                    FuncKeys.Mode2 -> manager.changeMode(4)
 
                     else -> {}
                 }
@@ -89,7 +89,7 @@ private fun createFuncKeysMap(): Map<BaseKeyboard.FuncKeys, String> {
     val result = mutableMapOf<BaseKeyboard.FuncKeys, String>()
     result[BaseKeyboard.FuncKeys.Back] = "⌫"
     result[BaseKeyboard.FuncKeys.Mode] = "abc"
-    result[BaseKeyboard.FuncKeys.Mode2] = "中"
+    result[BaseKeyboard.FuncKeys.Mode2] = "注"
     result[BaseKeyboard.FuncKeys.Space] = "　"
     result[BaseKeyboard.FuncKeys.Enter] = "⏎"
     return result
