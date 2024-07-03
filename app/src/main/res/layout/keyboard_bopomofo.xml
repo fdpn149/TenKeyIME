@@ -147,7 +147,7 @@
             tools:text="˙" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/keyBPMF_25"
+            android:id="@+id/keyBPMF_55"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -156,7 +156,7 @@
             android:insetBottom="3dp"
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
-            android:tag="char_25"
+            android:tag="char_55"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
             app:layout_constraintStart_toEndOf="@id/keyBPMF_41"
@@ -166,7 +166,7 @@
             tools:text="ㄚ" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/keyBPMF_29"
+            android:id="@+id/keyBPMF_59"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:insetLeft="3dp"
@@ -175,10 +175,10 @@
             android:insetBottom="3dp"
             android:paddingLeft="0dp"
             android:paddingRight="0dp"
-            android:tag="char_29"
+            android:tag="char_59"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/keyBPMF_25"
+            app:layout_constraintStart_toEndOf="@id/keyBPMF_55"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.1"
             tools:ignore="TouchTargetSizeCheck"
@@ -197,7 +197,7 @@
             android:tag="char_33"
             android:textSize="14sp"
             app:layout_constraintHeight_percent="0.2"
-            app:layout_constraintStart_toEndOf="@id/keyBPMF_29"
+            app:layout_constraintStart_toEndOf="@id/keyBPMF_59"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.1"
             tools:ignore="TouchTargetSizeCheck"
